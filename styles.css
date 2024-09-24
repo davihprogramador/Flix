@@ -1,0 +1,58 @@
+body {background-color: rgb(0, 0, 0);
+      color: rgba(255, 12, 12, 0.678);
+      margin: 0px;
+      font-family: "Cinzel", serif;
+      margin-bottom: 50px;
+      }
+
+ header {
+            border-bottom: solid 2px rgb(255, 0, 0);
+            padding: 20px;
+            font-size: 32px;
+            color: rgba(255, 0, 0, 0.678);
+            font-family: "Mochiy Pop One", sans-serif;
+            
+      }
+
+.Chamada{
+           background: rgb(20, 0, 3);
+           padding-bottom: 80px;
+           padding-top: 80px; 
+           display: flex;
+           justify-content: center;
+
+      }
+.chamada-texto {
+         margin-right: 5%;   
+      }
+p     {
+      font-size: 60px;
+      color: rgba(167, 0, 0, 0.473);
+      font-family: "Amatic SC", sans-serif;
+      }
+
+img   {
+      height:200px ;
+      }  
+.Categoria
+      {
+      display:flex ;
+      overflow-x: auto ;
+      gap: 20px;
+      }
+.Categoria-1 
+      {      
+      padding-left: 20px;
+      padding-right: 20px;   
+      margin-top: 50px;   
+      }
+.Categoria img
+      {
+      opacity:0.5 ;      
+      }      
+      
+.Categoria img:hover
+      {
+      opacity:1.0;     
+      border: 1px solid red;
+      }      
